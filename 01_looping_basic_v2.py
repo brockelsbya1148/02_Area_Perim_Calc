@@ -1,5 +1,3 @@
-# functions go here
-
 # checks input is more than zero
 def num_check(question):
     valid = False
