@@ -29,6 +29,10 @@ def num_check(question):
 
 # Main Routine goes here
 
+print()
+print("**** Area Perimeter Calculator ****")
+print()
+
 keep_going = ""
 while keep_going == "":
 
@@ -39,7 +43,14 @@ while keep_going == "":
     area = width * height
 
     print()
-    print("Perimeter: ", perimeter)
-    print("Area: ", area)
+    print("Perimeter: ", perimeter, "units")
+    print("Area: ", area, "square units")
     print()
+
+    keep_going = input("Press <enter> to keep going or any key to quit. ")
+    print()
+
+print("Thanks for using the area / perimeter calculator")
+print()
+
 
