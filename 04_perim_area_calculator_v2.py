@@ -25,16 +25,21 @@ def num_check(question):
             print(error)
             print()
 
- 
+
+
 # Main Routine goes here
-width = num_check("Width: ")
-height = num_check("Height: ")
 
-perimeter = (width + height) * 2
-area = width * height
+keep_going = ""
+while keep_going == "":
 
-print()
-print("Perimeter: ", perimeter)
-print("Area: ", area)
-print()
+    width = num_check("Width: ")
+    height = num_check("Height: ")
+
+    perimeter = (width + height) * 2
+    area = width * height
+
+    print()
+    print("Perimeter: ", perimeter)
+    print("Area: ", area)
+    print()
 
