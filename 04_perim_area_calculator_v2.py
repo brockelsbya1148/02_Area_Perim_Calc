@@ -1,6 +1,6 @@
 # functions go here
 
-# checks input is more than zero
+# checks input is more than zero cb
 def num_check(question):
     valid = False
     while not valid:
