@@ -25,14 +25,19 @@ def num_check(question):
             print(error)
             print()
 
+
+print()
+print("**** Fencing Calculator ****")
+print()
+
 keep_going = ""
 while keep_going == "":
 
     width = num_check("Width: ")
-    height = num_check("Height: ")
+    length = num_check("Length: ")
     cost = num_check("Cost per meter: ")
 
-    perimeter = (width + height) * 2
+    perimeter = (width + length) * 2
     cost_per_meter = perimeter * cost
 
     print()
