@@ -1,5 +1,4 @@
 
-
 # Checks the answer is more than zero
 def num_check(question):
     valid = False
@@ -51,4 +50,3 @@ while keep_going == "":
     print()
 
 print("Thanks for using the fencing calculator")
-print()
